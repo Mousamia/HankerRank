@@ -25,14 +25,25 @@ console.log(newLine);
 let first = 5;
 let second = 7;
 
-// approach:1
+// approach:1 (Its called destructuring)
 // console.log(first, second);
 // var temp = first;
 // first = second;
 // second = temp;
 console.log(first, second);
 
-// approach:2
-[first, second] = [second, first];
+// // approach:2
+// [first, second] = [second, first];
+// console.log(first, second);
 
-console.log(first, second);
+
+
+// approach: 3 : applicable for numbers
+let a = 9;
+let b = 4;
+console.log(a,b);
+a = a+b;
+b=  a-b;
+a=  a-b;
+console.log(a,b);
+
