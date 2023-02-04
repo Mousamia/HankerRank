@@ -14,4 +14,4 @@ function factorial(n){
 
 var number = 6;
 factorial(number);
-factorial(7);
+// factorial(7);
